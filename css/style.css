@@ -1,0 +1,23 @@
+body{
+    font-family: "Happy Monkey";
+    font-size: 120%;
+    background-color:#EBAF28;
+    color:#1E2336;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Gorditas;
+    font-size: 40pt;
+}
+header{
+    text-align: right;
+}
+#first,footer{
+    color:#4A1E0C;
+    border: 1px solid #468EFF;
+    background-color: #F56427;
+    text-align:center;
+    padding:10px;
+}
+#first img{
+    width: 300px;
+}
