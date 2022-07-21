@@ -6,8 +6,12 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Gorditas;
-    font-size: 40pt;
 }
+h2{
+    font-size: 20pt;
+    padding-left: 10px;
+}
+
 header{
     text-align: right;
 }
@@ -20,4 +24,20 @@ header{
 }
 #first img{
     width: 300px;
+}
+#hobbies{
+    background-color: #00BFFF;
+    border:3px solid #F56427;
+    box-shadow: 5px 5px 5px #000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 13px;
+}
+#hobbies ul li:nth-child(even){
+    color: #A52A2A;
+}
+#hobbies ul li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
