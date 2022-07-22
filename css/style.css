@@ -17,7 +17,7 @@ header{
 }
 #first,footer{
     color:#4A1E0C;
-    border: 2px solid #468EFF;
+    border: 2px solid #8B0000;
     box-shadow: 5px 5px 5px #000;
     background-color: #F56427;
     text-align:center;
@@ -34,7 +34,7 @@ header{
     width: 300px;
 }
 #hobbies{
-    background-color: #00BFFF;
+    background-color: #F56427;
     border:3px solid #F56427;
     box-shadow: 5px 5px 5px #000;
     border-bottom-left-radius: 50px;
@@ -44,14 +44,54 @@ header{
     margin-bottom: 13px;
 }
 #hobbies ul li:nth-child(even){
-    color: #A52A2A;
+    color: #8B0000;
 }
 #hobbies ul li{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #pictures img{
     max-width: 100%;
+    border: 2px solid #000;
 }
 #pictures{
     text-align: center;
+}
+#pictures figcaption{
+    border: 3px solid #F56427 ;
+    background-color: #F56427;
+    padding: 1rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 0.5rem;
+}
+#book{
+    border: 2px solid #8B0000;
+    margin-bottom: 12px;
+    padding: 2rem;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 50px;
+}
+#book div p:first-letter{
+    color:#F56427;
+    float: left;
+    font-size: 3rem;
+    padding: 0.5rem;
+    line-height: 1;
+    border: 1px solid #000;
+    margin: 0.5;
+    margin-right: 0.3rem;
+    font-family:cursive;
+    text-shadow: 3p 3px 3px #000;
+    box-shadow: 2px 2px 3px #000;
+}
+#book h2{
+    text-align: center;
+    border: 4px solid #F56427;
+    box-shadow: 5px 5px 5px #000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
