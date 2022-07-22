@@ -17,10 +17,18 @@ header{
 }
 #first,footer{
     color:#4A1E0C;
-    border: 1px solid #468EFF;
+    border: 2px solid #468EFF;
+    box-shadow: 5px 5px 5px #000;
     background-color: #F56427;
     text-align:center;
     padding:10px;
+}
+#first{
+    box-shadow: 5px 5px 5px #000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 #first img{
     width: 300px;
@@ -40,4 +48,10 @@ header{
 }
 #hobbies ul li{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pictures img{
+    max-width: 100%;
+}
+#pictures{
+    text-align: center;
 }
