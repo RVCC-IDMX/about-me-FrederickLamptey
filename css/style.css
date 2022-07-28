@@ -127,6 +127,9 @@ header{
     #pictures h2{
         grid-column: 1/-1;
     }
+    hr{
+        display: none;
+    }
     figure{
         display: block;
     }
