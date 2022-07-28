@@ -1,7 +1,7 @@
 body{
     font-family: "Happy Monkey";
     font-size: 120%;
-    background-color:#EBAF28;
+    background-color:#F0FFFF;
     color:#1E2336;
 }
 h1, h2, h3, h4, h5, h6{
@@ -17,9 +17,9 @@ header{
 }
 #first,footer{
     color:#4A1E0C;
-    border: 2px solid #8B0000;
+    border: 2px solid #000;
     box-shadow: 5px 5px 5px #000;
-    background-color: #F56427;
+    background-color: #ADD8E6;
     text-align:center;
     padding:10px;
 }
@@ -34,8 +34,8 @@ header{
     width: 300px;
 }
 #hobbies{
-    background-color: #F56427;
-    border:3px solid #F56427;
+    background-color: #ADD8E6;
+    border:3px solid #000;
     box-shadow: 5px 5px 5px #000;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -57,8 +57,8 @@ header{
     text-align: center;
 }
 #pictures figcaption{
-    border: 3px solid #F56427 ;
-    background-color: #F56427;
+    border: 3px solid #000 ;
+    background-color: #ADD8E6;
     padding: 1rem;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -67,14 +67,14 @@ header{
     margin-top: 0.5rem;
 }
 #book{
-    border: 2px solid #8B0000;
+    border: 2px solid #000;
     margin-bottom: 12px;
     padding: 2rem;
     border-top-right-radius: 70px;
     border-bottom-left-radius: 50px;
 }
 #book div p:first-letter{
-    color:#F56427;
+    color:#000;
     float: left;
     font-size: 3rem;
     padding: 0.5rem;
@@ -88,10 +88,25 @@ header{
 }
 #book h2{
     text-align: center;
-    border: 4px solid #F56427;
+    border: 4px solid #000;
     box-shadow: 5px 5px 5px #000;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+}
+
+@media screen and (min-width:60em){
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption{
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    
 }
