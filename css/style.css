@@ -42,12 +42,14 @@ header{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     margin-bottom: 13px;
+    text-align: center;
 }
 #hobbies ul li:nth-child(even){
     color: #8B0000;
 }
 #hobbies ul li{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 #pictures img{
     max-width: 100%;
