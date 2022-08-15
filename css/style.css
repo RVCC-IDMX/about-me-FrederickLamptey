@@ -143,3 +143,8 @@ header{
         display: block;
     }
 }
+/* Contact Form */
+
+#formelements{
+    display:grid;
+}
