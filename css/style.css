@@ -104,45 +104,6 @@ header{
     margin: 20px;
     padding-top: 10px;
    }
-
-/* tablet size */
-@media screen and (min-width:60em){
-    figure{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    figcaption{
-        margin-left: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5rem;
-    }
-    #book div{
-        max-width: 100%;
-        columns: 15rem;
-    }
-
-}
- /* larger screen */
-@media screen and (min-width:100em){
-    body{
-        font-size: 15pt;
-    }
-    #pictures{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    #pictures h2{
-        grid-column: 1/-1;
-    }
-    hr{
-        display: none;
-    }
-    figure{
-        display: block;
-    }
-}
 /* Contact Form */
 
 #formelements{
@@ -182,4 +143,43 @@ legend{
 }
 #contact li{
     margin:1rem;
+}
+
+   /* tablet size */
+@media screen and (min-width:60em){
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption{
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    #book div{
+        max-width: 100%;
+        columns: 15rem;
+    }
+
+}
+ /* larger screen */
+@media screen and (min-width:100em){
+    body{
+        font-size: 15pt;
+    }
+    #pictures{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #pictures h2{
+        grid-column: 1/-1;
+    }
+    hr{
+        display: none;
+    }
+    figure{
+        display: block;
+    }
 }
