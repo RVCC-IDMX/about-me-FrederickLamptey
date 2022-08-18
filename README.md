@@ -1,2 +1,3 @@
 # About me
+
 Frederick Lamptey
