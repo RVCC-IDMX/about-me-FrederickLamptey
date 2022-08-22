@@ -103,6 +103,7 @@ header{
     border: 2px solid #000;
     margin: 20px;
     padding-top: 10px;
+    background-color: #ADD8E6;
    }
 /* Contact Form */
 
@@ -116,7 +117,7 @@ header{
     margin:2rem auto;
 }
 fieldset{
-    border:2px solid #000
+    border:2px solid #000;
 }
 #contact button{
     border-bottom-left-radius: 50px;
