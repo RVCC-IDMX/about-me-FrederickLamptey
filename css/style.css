@@ -146,6 +146,10 @@ legend{
     margin:1rem;
 }
 
+iframe {
+    max-inline-size: 100%;
+}
+
    /* tablet size */
 @media screen and (min-width:60em){
     figure{
